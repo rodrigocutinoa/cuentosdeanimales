@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuentos de Aves — Sesiones educativas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Baloo+2:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Ir al inicio">
+        <span class="brand-icon" aria-hidden="true">🕊️</span>
+        <span class="brand-name">Cuentos de Animales</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list">
+          <li><a href="#que-hacemos">¿Qué hacemos?</a></li>
+          <li><a href="#actividades">Actividades</a></li>
+          <li><a href="#personajes">Nuestros personajes</a></li>
+          <li><a href="#reservas-familias">Reservas familias</a></li>
+          <li><a href="#reservas-escuelas">Reservas escuelas</a></li>
+          <li><a href="#impacto">Impacto educativo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Sesiones educativas con cuentos de animales y aves</h1>
+          <p>Un espacio lúdico y seguro para aprender valores a través de historias que conectan con la naturaleza.</p>
+          <a class="btn btn-primary" href="#reservas-familias">Reserva tu función</a>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/hero-aves.jpg" alt="Niños escuchando un cuento con aves chilenas" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ¿Qué hacemos? -->
+    <section id="que-hacemos" class="section">
+      <div class="container">
+        <h2>¿Qué hacemos?</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Valores que trabajamos</h3>
+            <ul class="icon-list">
+              <li>
+                <span class="icon circle">💬</span>
+                <div>
+                  <strong>Convivencia positiva:</strong>
+                  <p>Promovemos el respeto, la escucha y el diálogo en actividades guiadas.</p>
+                </div>
+              </li>
+              <li>
+                <span class="icon circle">🫶</span>
+                <div>
+                  <strong>Empatía y cuidado:</strong>
+                  <p>Los personajes inspiran el cuidado por los demás y por el entorno.</p>
+                </div>
+              </li>
+              <li>
+                <span class="icon circle">🧠</span>
+                <div>
+                  <strong>Seguridad emocional:</strong>
+                  <p>Ambiente acogedor con normas claras para aprender jugando.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Información clave</h3>
+            <ul class="info-list">
+              <li><strong>Duración:</strong> 60–75 minutos por sesión.</li>
+              <li><strong>Público objetivo:</strong> Niñas y niños de 4 a 10 años. Familias y escuelas.</li>
+              <li><strong>Formato:</strong> Cuento principal + actividades guiadas + cierre.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actividades -->
+    <section id="actividades" class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Actividades</h2>
+          <div class="toggle">
+            <label for="modo-lenguaje"><strong>Modo lenguaje:</strong></label>
+            <select id="modo-lenguaje" aria-label="Selecciona modo de lenguaje">
+              <option value="infantil">Infantil</option>
+              <option value="adulto">Adulto</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="activities">
+          <article class="activity-card">
+            <div class="activity-icon" aria-hidden="true">
+              <!-- Libro -->
+              <svg viewBox="0 0 24 24" role="img" aria-label="Icono libro">
+                <path d="M3 5a2 2 0 0 1 2-2h6v18H5a2 2 0 0 1-2-2V5zm16-2h-6v18h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z" fill="#6bb8ff"/>
+              </svg>
+            </div>
+            <div class="activity-content">
+              <h3>Cuentos y títeres</h3>
+              <p class="texto-infantil">Escuchamos una historia con animales y aves. ¡Imaginamos y participamos con nuestros títeres!</p>
+              <p class="texto-adulto">Narración breve con foco en valores, participación y comprensión de la historia apoyados con títeres.</p>
+              <p class="activity-time"><strong>Tiempo:</strong> 15–20 min</p>
+            </div>
+          </article>
+
+          <article class="activity-card">
+            <div class="activity-icon" aria-hidden="true">
+              <!-- Taller -->
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16v4H4zM4 10h10v10H4zM16 10h4v10h-4z" fill="#9ad5c0"/>
+              </svg>
+            </div>
+            <div class="activity-content">
+              <h3>Taller creativo</h3>
+              <p class="texto-infantil">Dibujamos y creamos con colores suaves y figuras simples.</p>
+              <p class="texto-adulto">Actividad manual para expresar la historia y reforzar conceptos clave.</p>
+              <p class="activity-time"><strong>Tiempo:</strong> 20–25 min</p>
+            </div>
+          </article>
+
+          <article class="activity-card">
+            <div class="activity-icon" aria-hidden="true">
+              <!-- Dinámica -->
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" fill="#ffb3ab"/>
+                <path d="M7 12h10" stroke="#fff" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="activity-content">
+              <h3>Dinámica de convivencia</h3>
+              <p class="texto-infantil">Jugamos juntos con reglas simples para compartir y pasarlo bien.</p>
+              <p class="texto-adulto">Juego cooperativo que modela normas de convivencia positiva, segura e integrada.</p>
+              <p class="activity-time"><strong>Tiempo:</strong> 15–20 min</p>
+            </div>
+          </article>
+
+          <article class="activity-card">
+            <div class="activity-icon" aria-hidden="true">
+              <!-- Cierre -->
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2l4 8h-8l4-8zm-6 20h12v-8H6v8z" fill="#ffd7a8"/>
+              </svg>
+            </div>
+            <div class="activity-content">
+              <h3>Cierre</h3>
+              <p class="texto-infantil">Compartimos lo que aprendimos y nos despedimos con una canción.</p>
+              <p class="texto-adulto">Reflexión guiada, síntesis de aprendizajes y aprendizaje del grupo.</p>
+              <p class="activity-time"><strong>Tiempo:</strong> 10–15 min</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="gallery">
+          <figure>
+            <img src="assets/actividad-1.jpg" alt="Niños pintando aves con colores pastel" />
+            <figcaption>Pintando aves con colores suaves</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/actividad-2.jpg" alt="Taller de dibujo de animales con materiales simples" />
+            <figcaption>Taller creativo</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/actividad-3.jpg" alt="Juego cooperativo al aire libre" />
+            <figcaption>Dinámica de convivencia</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personajes -->
+    <section id="personajes" class="section">
+      <div class="container">
+        <h2>Nuestros personajes</h2>
+        <p>Conoce algunos animales y aves que te acompañarán en los cuentos.</p>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/aves/condor.jpg" alt="Cóndor andino" />
+            <div class="card-body">
+              <h3>El Cóndor</h3>
+              <p>Ave grande y sabia que cuida desde lo alto.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/aves/chincol.jpg" alt="Chincol" />
+            <div class="card-body">
+              <h3>El Chincol</h3>
+              <p>Pequeño y alegre, siempre dispuesto a cantar.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/animales/zorro.jpg" alt="Zorro culpeo" />
+            <div class="card-body">
+              <h3>El Zorro</h3>
+              <p>Astuto y curioso, aprende del grupo.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/aves/flamenco.jpg" alt="Flamenco chileno" />
+            <div class="card-body">
+              <h3>El Flamenco</h3>
+              <p>Elegante y amistoso, le gusta convivir en bandadas.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservas familias -->
+    <section id="reservas-familias" class="section alt">
+      <div class="container">
+        <h2>Reservas familias</h2>
+        <p>Selecciona una fecha de fin de semana. Máximo 12 niños por función.</p>
+
+        <form id="form-familias" class="form" novalidate>
+          <div class="form-row">
+            <label for="fecha-familias"><strong>Fecha y jornada:</strong></label>
+            <select id="fecha-familias" name="fecha" required>
+              <optgroup label="Viernes (tarde)">
+                <option value="viernes-17">Viernes — 17:00</option>
+                <option value="viernes-19">Viernes — 19:00</option>
+              </optgroup>
+              <optgroup label="Sábado (diurna / tarde)">
+                <option value="sabado-11">Sábado — 11:00</option>
+                <option value="sabado-16">Sábado — 16:00</option>
+              </optgroup>
+              <optgroup label="Domingo (diurna / tarde)">
+                <option value="domingo-11">Domingo — 11:00</option>
+                <option value="domingo-16">Domingo — 16:00</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="nombre-familias"><strong>Nombre apoderado/a:</strong></label>
+            <input id="nombre-familias" name="nombre" type="text" placeholder="Tu nombre" required />
+          </div>
+
+          <div class="form-row">
+            <label for="telefono-familias"><strong>Teléfono:</strong></label>
+            <input id="telefono-familias" name="telefono" type="tel" placeholder="+56 9 1234 5678" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email-familias"><strong>Email:</strong></label>
+            <input id="email-familias" name="email" type="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="cantidad-ninos"><strong>Cantidad de niños/as:</strong></label>
+            <input id="cantidad-ninos" name="cantidad" type="number" min="1" max="12" value="1" required />
+            <small class="help">Máximo permitido: 12 niños por grupo.</small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Reservar</button>
+          <p id="familias-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Reservas escuelas -->
+    <section id="reservas-escuelas" class="section">
+      <div class="container">
+        <h2>Reservas escuelas</h2>
+        <p>Bloques de sesiones educativas para cursos. Disponible martes y miércoles (diurno o mediodía).</p>
+
+        <form id="form-escuelas" class="form" novalidate>
+          <div class="form-row">
+            <label for="fecha-escuelas"><strong>Día y jornada:</strong></label>
+            <select id="fecha-escuelas" name="fecha" required>
+              <optgroup label="Martes">
+                <option value="martes-10">Martes — 10:00 (diurno)</option>
+                <option value="martes-12">Martes — 12:00 (mediodía)</option>
+              </optgroup>
+              <optgroup label="Miércoles">
+                <option value="miercoles-10">Miércoles — 10:00 (diurno)</option>
+                <option value="miercoles-12">Miércoles — 12:00 (mediodía)</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="colegio"><strong>Colegio:</strong></label>
+            <input id="colegio" name="colegio" type="text" placeholder="Nombre del establecimiento" required />
+          </div>
+
+          <div class="form-row">
+            <label for="curso"><strong>Curso:</strong></label>
+            <input id="curso" name="curso" type="text" placeholder="Ej: 2° Básico A" required />
+          </div>
+
+          <div class="form-row">
+            <label for="cantidad-escuelas"><strong>Cantidad de niños/as:</strong></label>
+            <input id="cantidad-escuelas" name="cantidad" type="number" min="1" max="40" placeholder="Ej: 25" required />
+            <small class="help">Sugerido por grupo: 20–30, puede adaptarse.</small>
+          </div>
+
+          <div class="form-row">
+            <label for="telefono-escuelas"><strong>Teléfono de contacto:</strong></label>
+            <input id="telefono-escuelas" name="telefono" type="tel" placeholder="+56 2 2345 6789" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Solicitar reserva</button>
+          <p id="escuelas-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Impacto educativo -->
+    <section id="impacto" class="section alt">
+      <div class="container">
+        <h2>Impacto educativo</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Objetivos</h3>
+            <ul class="check-list">
+              <li>Fortalecer la convivencia positiva y segura.</li>
+              <li>Desarrollar empatía y cuidado por el entorno.</li>
+              <li>Mejorar la expresión y la escucha activa.</li>
+              <li>Fomentar el trabajo cooperativo.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Enfoque</h3>
+            <p>Las actividades usan cuentos y juegos cooperativos para modelar normas, validar emociones y practicar acuerdos simples que el grupo puede llevar a su sala y a su hogar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas? Escríbenos y te respondemos lo antes posible.</p>
+        <form id="form-contacto" class="form" novalidate>
+          <div class="form-row">
+            <label for="nombre-contacto"><strong>Nombre:</strong></label>
+            <input id="nombre-contacto" name="nombre" type="text" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-row">
+            <label for="email-contacto"><strong>Email:</strong></label>
+            <input id="email-contacto" name="email" type="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+          <div class="form-row">
+            <label for="mensaje-contacto"><strong>Mensaje:</strong></label>
+            <textarea id="mensaje-contacto" name="mensaje" rows="4" placeholder="Cuéntanos tus dudas y en qué te podemos ayudar" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <p id="contacto-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Cuentos de Aves</strong> — Programa educativo infantil</p>
+      <p>Santiago, Chile • Imágenes sugeridas: Banco de Aves de Chile y otros bancos libres.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
