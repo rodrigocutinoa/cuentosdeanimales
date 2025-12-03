@@ -255,6 +255,7 @@ img {
   margin-top: 6px;
 }
 
+
 /* Cards (Personajes) */
 .cards {
   display: grid;
@@ -275,6 +276,11 @@ img {
 
 .card h3 {
   margin: 0 0 6px;
+}
+
+article img {
+  height: 200px;
+  width: 180px;
 }
 
 /* Forms */
