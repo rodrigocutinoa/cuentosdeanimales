@@ -95,6 +95,7 @@ img {
 
 .main-nav a:hover {
   background: var(--blanco);
+  transition: 0.75s;
 }
 
 .nav-toggle {
