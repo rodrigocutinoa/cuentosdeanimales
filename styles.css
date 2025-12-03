@@ -17,6 +17,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -95,7 +97,7 @@ img {
 
 .main-nav a:hover {
   background: var(--blanco);
-  transition: 0.75s;
+  transition: 0.75s ease;
 }
 
 .nav-toggle {
