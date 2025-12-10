@@ -37,7 +37,7 @@ if (formFamilias) {
       familiasMsg.style.color = '#b00020';
       return;
     }
-    familiasMsg.textContent = '¡Reserva enviada! Te contactaremos para confirmación.';
+    familiasMsg.textContent = '¡Reserva enviada! Te contactaremos para confirmar.';
     familiasMsg.style.color = '#2d6a4f';
     formFamilias.reset();
     actualizarModo(); // Reaplicar modo por si cambia el render
@@ -56,11 +56,11 @@ if (formEscuelas) {
     const tel = document.getElementById('telefono-escuelas').value.trim();
 
     if (!colegio || !curso || isNaN(cant) || cant < 1 || cant > 40 || !tel) {
-      escuelasMsg.textContent = 'Revisa los campos: colegio, curso, cantidad (1–40) y teléfono.';
+      escuelasMsg.textContent = 'Revisa los campos requeridos: colegio, curso, cantidad (1–40) y teléfono.';
       escuelasMsg.style.color = '#b00020';
       return;
     }
-    escuelasMsg.textContent = 'Solicitud enviada. Nos pondremos en contacto para coordinar el bloque.';
+    escuelasMsg.textContent = 'Solicitud enviada. Nos pondremos en contacto para coordinar la sesión.';
     escuelasMsg.style.color = '#2d6a4f';
     formEscuelas.reset();
   });
